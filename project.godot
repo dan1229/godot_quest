@@ -23,22 +23,28 @@ _global_script_classes=[ {
 "class": "OculusTracker",
 "language": "GDScript",
 "path": "res://addons/godot_ovrmobile/example_scenes/oculus_tracker.gd"
+}, {
+"base": "RigidBody",
+"class": "VR_Interactable_Rigidbody",
+"language": "GDScript",
+"path": "res://VR_Interactable_Rigidbody.gd"
 } ]
 _global_script_class_icons={
 "OculusHandTracker": "",
 "OculusTouchController": "",
-"OculusTracker": ""
+"OculusTracker": "",
+"VR_Interactable_Rigidbody": ""
 }
 
 [application]
 
 config/name="Godot Quest"
-run/main_scene="res://Main.tscn"
+run/main_scene="res://Game.tscn"
 config/icon="res://icon.png"
 
 [gdnative]
 
-singletons=[ "res://addons/godot_ovrmobile/godot_ovrmobile.gdnlib" ]
+singletons=[ "res://addons/godot-openvr/godot_openvr.gdnlib", "res://addons/godot_ovrmobile/godot_ovrmobile.gdnlib" ]
 
 [physics]
 
