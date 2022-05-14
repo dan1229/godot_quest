@@ -9,10 +9,19 @@ onready var ovr_performance = preload("res://addons/godot_ovrmobile/OvrPerforman
 
 
 func _ready():
+	# open vr
+	#var VR = ARVRServer.find_interface("OpenVR")
+	#if VR and VR.initialize():
+	#	get_viewport().arvr = true
+	#	OS.vsync_enabled = false
+	#	Engine.target_fps = 90
+		# Also, the physics FPS in the project settings is also 90 FPS. This makes the physics
+		# run at the same frame rate as the display, which makes things look smoother in VR!
+	
+	# oculus mobile
 	var interface = ARVRServer.find_interface("OVRMobile")
 	if interface:
 		ovr_init_config.set_render_target_size_multiplier(1)
-
 		if interface.initialize():
 			get_viewport().arvr = true
 
