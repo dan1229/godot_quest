@@ -46,6 +46,10 @@ config/icon="res://icon.png"
 
 singletons=[ "res://addons/godot-openvr/godot_openvr.gdnlib", "res://addons/godot_ovrmobile/godot_ovrmobile.gdnlib" ]
 
+[global]
+
+export=false
+
 [physics]
 
 common/enable_pause_aware_picking=true
