@@ -9,40 +9,54 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "RigidBody",
+"base": "OculusTracker",
+"class": "OculusHandTracker",
+"language": "GDScript",
+"path": "res://addons/godot_ovrmobile/example_scenes/oculus_hand_tracker.gd"
+}, {
+"base": "OculusTracker",
+"class": "OculusTouchController",
+"language": "GDScript",
+"path": "res://addons/godot_ovrmobile/example_scenes/oculus_touch_controller.gd"
+}, {
+"base": "ARVRController",
+"class": "OculusTracker",
+"language": "GDScript",
+"path": "res://addons/godot_ovrmobile/example_scenes/oculus_tracker.gd"
+}, {
+"base": "Reference",
 "class": "VR_Interactable_Rigidbody",
 "language": "GDScript",
 "path": "res://Scenes/VR_Interactable_Rigidbody.gd"
 } ]
 _global_script_class_icons={
+"OculusHandTracker": "",
+"OculusTouchController": "",
+"OculusTracker": "",
 "VR_Interactable_Rigidbody": ""
 }
 
 [application]
 
-config/name="VR Starter Tutorial Complete"
+config/name="Godot Quest"
 run/main_scene="res://Game.tscn"
-run/low_processor_mode=true
 config/icon="res://icon.png"
-
-[display]
-
-window/stretch/mode="2d"
-window/stretch/aspect="keep"
 
 [gdnative]
 
-singletons=[ "res://addons/godot-openvr/godot_openvr.gdnlib" ]
+singletons=[ "res://addons/godot-openvr/godot_openvr.gdnlib", "res://addons/godot_ovrmobile/godot_ovrmobile.gdnlib" ]
+
+[global]
+
+export=false
 
 [physics]
 
-common/physics_fps=90
+common/enable_pause_aware_picking=true
 
 [rendering]
 
-quality/filters/anisotropic_filter_level=1
-quality/directional_shadow/size=2048
-quality/shadow_atlas/size=2048
-quality/reflections/high_quality_ggx=false
-quality/filters/msaa=1
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
 environment/default_environment="res://default_env.tres"

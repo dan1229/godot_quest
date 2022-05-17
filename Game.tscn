@@ -106,10 +106,8 @@ flags_unshaded = true
 script = ExtResource( 1 )
 
 [node name="World" type="Spatial" parent="."]
-editor/display_folded = true
 
 [node name="Floor_Main" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( 40, 0, 0, 0, 1, 0, 0, 0, 40, 0, -0.828144, 0 )
 mesh = SubResource( 1 )
 material/0 = SubResource( 2 )
@@ -120,7 +118,6 @@ material/0 = SubResource( 2 )
 shape = SubResource( 3 )
 
 [node name="Wall" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 8, -20.1266, 2.76718, 0 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -131,7 +128,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall2" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.270812, 0, 7.70106, 0, 3, 0, -0.962632, 0, -2.1665, -12.8443, 2.76718, -9.18034 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -142,7 +138,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall3" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.989294, 0, 1.16751, 0, 3, 0, -0.145939, 0, -7.91435, -4.47953, 2.76718, -18.623 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -153,7 +148,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall4" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.986219, 0, -1.15813, 0, 3, 0, 0.165447, 0, -6.90353, -4.31366, 2.76718, -33.1712 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -164,7 +158,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall5" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.00147109, 0, -6.99999, 0, 3, 0, 0.999999, 0, -0.0102976, -32.9795, 2.76718, 7.75031 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -175,7 +168,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall6" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.00735542, 0, -6.99999, 0, 1, 0, 4.99999, 0, -0.0102976, 28.492, 0.821236, 30.3279 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -186,7 +178,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall7" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.00735542, 0, -6.99999, 0, 2, 0, 4.99999, 0, -0.0102976, 28.5067, 4.22321, 20.3502 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -197,7 +188,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall8" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.00735542, 0, -2, 0, 1, 0, 4.99999, 0, -0.00294217, 26.8845, 1.97055, 29.6801 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -208,7 +198,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall25" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.00735542, 0, -2, 0, 1, 0, 4.99999, 0, -0.00294217, 29.4054, 2.98466, 29.6838 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -219,7 +208,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall26" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.00735542, 0, -2, 0, 1, 0, 4.99999, 0, -0.00294217, 32.3553, 4.06149, 29.6882 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -230,7 +218,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall13" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 6, 0, 0, 0, 10, 29.0115, 5.98328, -23 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -241,8 +228,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall14" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( -4.37114e-008, 0, 10, 0, 6, 0, -1, 0, -4.37114e-007, 18.0767, 5.98328, -31.9393 )
+transform = Transform( -4.37114e-08, 0, 10, 0, 6, 0, -1, 0, -4.37114e-07, 18.0767, 5.98328, -31.9393 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -252,8 +238,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall15" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( 1, -1.01644e-021, -2.84217e-014, 7.90639e-023, 6, -2.84217e-014, 0, 2.84217e-014, 10, 9.0115, 5.98328, -23 )
+transform = Transform( 1, -1.01644e-21, -2.84217e-14, 7.90639e-23, 6, -2.84217e-14, 0, 2.84217e-14, 10, 9.0115, 5.98328, -23 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -263,8 +248,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall16" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( 1.91069e-015, -4.37114e-007, 10, -1, -4.37114e-007, 7.90639e-022, 4.37114e-008, -10, -4.37114e-007, 18.8326, 11.9833, -22.9894 )
+transform = Transform( 1.91069e-15, -4.37114e-07, 10, -1, -4.37114e-07, 7.90639e-22, 4.37114e-08, -10, -4.37114e-07, 18.8326, 11.9833, -22.9894 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -274,8 +258,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall17" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( -4.37114e-008, 0, 6, 0, 6, 0, -1, 0, -2.62268e-007, 22.1302, 5.98328, -14.0189 )
+transform = Transform( -4.37114e-08, 0, 6, 0, 6, 0, -1, 0, -2.62268e-07, 22.1302, 5.98328, -14.0189 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -285,8 +268,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall18" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( -4.37114e-008, 0, 3.2, 0, 4, 0, -1, 0, -1.39876e-007, 13.1193, 7.03349, -14.057 )
+transform = Transform( -4.37114e-08, 0, 3.2, 0, 4, 0, -1, 0, -1.39876e-07, 13.1193, 7.03349, -14.057 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -296,8 +278,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall19" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( -4.37114e-008, 0, 3.2, 0, 1, 0, -1, 0, -1.39876e-007, 13.1193, 0.430355, -14.057 )
+transform = Transform( -4.37114e-08, 0, 3.2, 0, 1, 0, -1, 0, -1.39876e-07, 13.1193, 0.430355, -14.057 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -307,8 +288,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall27" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( -4.37114e-008, 0, 5.41388, 0, 1, 0, -1, 0, -2.36648e-007, 23.1143, 0.1789, -20.0856 )
+transform = Transform( -4.37114e-08, 0, 5.41388, 0, 1, 0, -1, 0, -2.36648e-07, 23.1143, 0.1789, -20.0856 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -318,8 +298,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall28" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( -4.37114e-008, 0, 5.41388, 0, 1.23121, 0, -1, 0, -2.36648e-007, 23.087, 4.81612, -20.0689 )
+transform = Transform( -4.37114e-08, 0, 5.41388, 0, 1.23121, 0, -1, 0, -2.36648e-07, 23.087, 4.81612, -20.0689 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -329,8 +308,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall20" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( -1, 0, -4.83187e-007, 0, 3, 0, 1.50996e-007, 0, -3.2, 17.1469, 3.04303, -17.9557 )
+transform = Transform( -1, 0, -4.83187e-07, 0, 3, 0, 1.50996e-07, 0, -3.2, 17.1469, 3.04303, -17.9557 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
 
@@ -340,7 +318,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall21" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.00147109, 0, -6.99999, 0, 3, 0, 0.999999, 0, -0.0102976, -32.9383, 2.76718, -20.2497 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -351,7 +328,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall22" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( -0.00147109, 0, -6.99999, 0, 3, 0, 0.999999, 0, -0.0102976, -32.9221, 2.76718, -31.2496 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -362,7 +338,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall29" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( 0.999999, 0, -0.0102973, 0, 3, 0, 0.00147105, 0, 6.99999, -38.9221, 2.76718, -25.7028 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 5 )
@@ -373,8 +348,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 6 )
 
 [node name="Wall23" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( 4.17442, -2.87319, 1.25591e-007, 0, -1.74846e-007, -4, 4.30978, 2.78295, -1.21646e-007, -37.1258, 2.07868, 37.2024 )
+transform = Transform( 4.17442, -2.87319, 1.25591e-07, 0, -1.74846e-07, -4, 4.30978, 2.78295, -1.21646e-07, -37.1258, 2.07868, 37.2024 )
 mesh = SubResource( 7 )
 material/0 = SubResource( 5 )
 
@@ -384,8 +358,7 @@ material/0 = SubResource( 5 )
 shape = SubResource( 8 )
 
 [node name="Wall24" type="MeshInstance" parent="World"]
-editor/display_folded = true
-transform = Transform( -4.17442, 2.87319, -1.25591e-007, 0, -1.74846e-007, -4, -4.30978, -2.78295, 1.21646e-007, -21.3232, 2.07868, 21.8962 )
+transform = Transform( -4.17442, 2.87319, -1.25591e-07, 0, -1.74846e-07, -4, -4.30978, -2.78295, 1.21646e-07, -21.3232, 2.07868, 21.8962 )
 mesh = SubResource( 7 )
 material/0 = SubResource( 5 )
 
@@ -395,7 +368,6 @@ material/0 = SubResource( 5 )
 shape = SubResource( 8 )
 
 [node name="Item_Holder" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.1189, 0.649612, -24.0485 )
 mesh = SubResource( 9 )
 material/0 = null
@@ -406,7 +378,6 @@ material/0 = null
 shape = SubResource( 10 )
 
 [node name="Item_Holder2" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.5961, 6.64961, 17.6404 )
 mesh = SubResource( 9 )
 material/0 = null
@@ -417,19 +388,16 @@ material/0 = null
 shape = SubResource( 10 )
 
 [node name="Item_Holder3" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.658, 0.649612, -26.1134 )
 mesh = SubResource( 9 )
 material/0 = null
 
 [node name="StaticBody" type="StaticBody" parent="World/Item_Holder3"]
-editor/display_folded = true
 
 [node name="CollisionShape" type="CollisionShape" parent="World/Item_Holder3/StaticBody"]
 shape = SubResource( 10 )
 
 [node name="Item_Holder4" type="MeshInstance" parent="World"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.658, 0.649612, 26.8866 )
 mesh = SubResource( 9 )
 material/0 = null
@@ -460,7 +428,6 @@ current = true
 visible = false
 
 [node name="Spheres" type="Spatial" parent="."]
-editor/display_folded = true
 
 [node name="Sphere_Target" parent="Spheres" instance=ExtResource( 6 )]
 transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 22.5606, 8.70278, 24.0719 )
@@ -469,13 +436,13 @@ transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 22.5606, 8.70278, 24.0719 )
 transform = Transform( 1.41421, 0, 1.41421, 0, 2, 0, -1.41421, 0, 1.41421, 33.7059, 11.7028, 17.2346 )
 
 [node name="Sphere_Target3" parent="Spheres" instance=ExtResource( 6 )]
-transform = Transform( -8.74228e-008, 0, 2, 0, 2, 0, -2, 0, -8.74228e-008, 20.0588, 0.987712, -16.5804 )
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 20.0588, 0.987712, -16.5804 )
 
 [node name="Sphere_Target4" parent="Spheres" instance=ExtResource( 6 )]
-transform = Transform( -8.74228e-008, 0, 2, 0, 2, 0, -2, 0, -8.74228e-008, 26.0588, 0.987712, -16.5804 )
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 26.0588, 0.987712, -16.5804 )
 
 [node name="Sphere_Target5" parent="Spheres" instance=ExtResource( 6 )]
-transform = Transform( -8.74228e-008, 0, 2, 0, 2, 0, -2, 0, -8.74228e-008, 23.2171, 0.987712, -16.5804 )
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 23.2171, 0.987712, -16.5804 )
 
 [node name="Sphere_Target6" parent="Spheres" instance=ExtResource( 6 )]
 transform = Transform( -0.845237, 0, 1.81262, 0, 2, 0, -1.81262, 0, -0.845237, -32.693, 1.98771, 33.1324 )
@@ -497,10 +464,10 @@ transform = Transform( -0.845237, 0, 1.81262, 0, 2, 0, -1.81262, 0, -0.845237, -
 [node name="Interactable_Objects" type="Spatial" parent="."]
 
 [node name="Pistol" parent="Interactable_Objects" instance=ExtResource( 8 )]
-transform = Transform( -2.32729e-008, 0.258819, 0.965926, 1, -4.37114e-008, 3.58063e-008, 5.14893e-008, 0.965926, -0.258819, 26.8528, 7.48704, 17.7386 )
+transform = Transform( -2.32729e-08, 0.258819, 0.965926, 1, -4.37114e-08, 3.58063e-08, 5.14893e-08, 0.965926, -0.258819, 26.8528, 7.48704, 17.7386 )
 
 [node name="Pistol2" parent="Interactable_Objects" instance=ExtResource( 8 )]
-transform = Transform( -1.50459e-008, -0.258819, -0.965926, 1, 7.54979e-008, -3.58063e-008, 8.21927e-008, -0.965926, 0.258819, 26.3313, 7.48704, 17.6496 )
+transform = Transform( -1.50459e-08, -0.258819, -0.965926, 1, 7.54979e-08, -3.58063e-08, 8.21927e-08, -0.965926, 0.258819, 26.3313, 7.48704, 17.6496 )
 
 [node name="Reset_Box" parent="Interactable_Objects" instance=ExtResource( 9 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.98995, 0.988414, 18.6295 )
@@ -533,10 +500,9 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.3611, 1.38314, -23.6749 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.5851, 1.50581, 27.2947 )
 
 [node name="Shotgun" parent="Interactable_Objects" instance=ExtResource( 12 )]
-transform = Transform( -4.37114e-008, 1, 0, -1, -4.37114e-008, 0, 0, 0, 1, -7.61642, 1.39338, -25.72 )
+transform = Transform( -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, -7.61642, 1.39338, -25.72 )
 
 [node name="Teleport_Mesh" type="MeshInstance" parent="."]
-editor/display_folded = true
 visible = false
 mesh = SubResource( 13 )
 material/0 = SubResource( 14 )
@@ -547,10 +513,8 @@ mesh = SubResource( 15 )
 material/0 = SubResource( 14 )
 
 [node name="Rigidbodies" type="Spatial" parent="."]
-editor/display_folded = true
 
 [node name="RigidBody" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.6887, 6.71436, 18.3975 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody"]
@@ -561,7 +525,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody2" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.182, 6.71436, 18.3975 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody2"]
@@ -572,7 +535,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody3" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.4275, 7.23247, 18.3975 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody3"]
@@ -583,7 +545,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody4" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.4275, 6.82534, 18.9657 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody4"]
@@ -594,7 +555,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody5" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.9994, 6.82534, 19.0158 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody5"]
@@ -605,7 +565,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody6" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.713, 7.33861, 18.9085 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody6"]
@@ -616,7 +575,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody7" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 0.906308, 0, 0.422618, 0, 1, 0, -0.422618, 0, 0.906308, -30.5758, 0.860854, 31.3453 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody7"]
@@ -629,7 +587,6 @@ transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody8" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 0.906308, 0, 0.422618, 0, 1, 0, -0.422618, 0, 0.906308, -30.5758, 1.72477, 31.3453 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody8"]
@@ -642,7 +599,6 @@ transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody9" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 0.906308, 0, 0.422618, 0, 1, 0, -0.422618, 0, 0.906308, -30.5758, 2.56851, 31.3453 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody9"]
@@ -655,7 +611,6 @@ transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody10" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 0.906308, 0, 0.422618, 0, 1, 0, -0.422618, 0, 0.906308, -30.5758, 3.44398, 31.3453 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Rigidbodies/RigidBody10"]
@@ -668,7 +623,6 @@ transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody11" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 1.33338, -22.4042 )
 mass = 1.25
 
@@ -682,7 +636,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody12" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 1.33338, -24.1594 )
 mass = 1.25
 
@@ -696,7 +649,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody13" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 1.33338, -25.838 )
 mass = 1.25
 
@@ -710,7 +662,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody14" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 1.33338, -27.5602 )
 mass = 1.25
 
@@ -724,7 +675,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody15" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 1.33338, -29.2617 )
 mass = 1.25
 
@@ -738,7 +688,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody16" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 3.11202, -28.7448 )
 mass = 1.25
 
@@ -752,7 +701,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody17" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 3.11202, -26.8124 )
 mass = 1.25
 
@@ -766,7 +714,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody18" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 3.11202, -24.9178 )
 mass = 1.25
 
@@ -780,7 +727,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody19" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 3.11202, -23.089 )
 mass = 1.25
 
@@ -794,7 +740,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody20" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 4.90355, -23.9719 )
 mass = 1.25
 
@@ -808,7 +753,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody21" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 4.90355, -25.9742 )
 mass = 1.25
 
@@ -822,7 +766,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody22" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0617, 4.90355, -27.8589 )
 mass = 1.25
 
@@ -836,7 +779,6 @@ transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
 shape = SubResource( 18 )
 
 [node name="RigidBody23" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.9383, 0.419056, -27.8589 )
 mass = 1.25
 
@@ -848,7 +790,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody24" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.4122, 0.419056, -27.8589 )
 mass = 1.25
 
@@ -860,7 +801,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody25" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.8691, 0.419056, -27.8589 )
 mass = 1.25
 
@@ -872,7 +812,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody26" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.3331, 0.419056, -27.8589 )
 mass = 1.25
 
@@ -884,7 +823,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody27" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5897, 0.898549, -27.8589 )
 mass = 1.25
 
@@ -896,7 +834,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody28" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.1371, 0.898549, -27.8589 )
 mass = 1.25
 
@@ -908,7 +845,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody29" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.6944, 0.898549, -27.8589 )
 mass = 1.25
 
@@ -920,7 +856,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody30" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.4408, 1.36584, -27.8589 )
 mass = 1.25
 
@@ -932,7 +867,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody31" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.8562, 1.36584, -27.8589 )
 mass = 1.25
 
@@ -944,7 +878,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="RigidBody32" type="RigidBody" parent="Rigidbodies"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.177, 1.7999, -27.8589 )
 mass = 1.25
 
@@ -956,7 +889,6 @@ material/0 = SubResource( 17 )
 shape = SubResource( 18 )
 
 [node name="GUI_Pistols" type="MeshInstance" parent="."]
-editor/display_folded = true
 transform = Transform( 0.943157, 0, 0.332347, 0, 1, 0, -0.332347, 0, 0.943157, 24.7095, 7.78223, 17.74 )
 mesh = SubResource( 19 )
 material/0 = SubResource( 20 )
@@ -964,7 +896,6 @@ script = ExtResource( 13 )
 gui_viewport_path = NodePath("GUI")
 
 [node name="GUI" type="Viewport" parent="GUI_Pistols"]
-editor/display_folded = true
 size = Vector2( 480, 240 )
 hdr = false
 usage = 1
@@ -992,7 +923,6 @@ align = 1
 valign = 1
 
 [node name="GUI_Shotgun" type="MeshInstance" parent="."]
-editor/display_folded = true
 transform = Transform( -0.0973867, 0, -0.995247, 0, 1, 0, 0.995247, 0, -0.0973867, -6.29051, 2.78223, -25.26 )
 mesh = SubResource( 19 )
 material/0 = SubResource( 20 )
@@ -1000,7 +930,6 @@ script = ExtResource( 13 )
 gui_viewport_path = NodePath("GUI")
 
 [node name="GUI" type="Viewport" parent="GUI_Shotgun"]
-editor/display_folded = true
 size = Vector2( 480, 240 )
 hdr = false
 usage = 1
@@ -1028,7 +957,6 @@ align = 1
 valign = 1
 
 [node name="GUI_Sword" type="MeshInstance" parent="."]
-editor/display_folded = true
 transform = Transform( 0.725533, 0, -0.688187, 0, 1, 0, 0.688187, 0, 0.725533, -25.4911, 1.85187, 24.5165 )
 mesh = SubResource( 19 )
 material/0 = SubResource( 22 )
@@ -1036,7 +964,6 @@ script = ExtResource( 13 )
 gui_viewport_path = NodePath("GUI")
 
 [node name="GUI" type="Viewport" parent="GUI_Sword"]
-editor/display_folded = true
 size = Vector2( 480, 240 )
 hdr = false
 usage = 1
@@ -1044,7 +971,6 @@ render_target_v_flip = true
 render_target_clear_mode = 2
 
 [node name="Control" type="Control" parent="GUI_Sword/GUI"]
-editor/display_folded = true
 margin_right = 480.0
 margin_bottom = 240.0
 
@@ -1062,7 +988,6 @@ align = 1
 valign = 1
 
 [node name="GUI_Bombs" type="MeshInstance" parent="."]
-editor/display_folded = true
 transform = Transform( 0.422618, 0, -0.906308, 0, 1, 0, 0.906308, 0, 0.422618, 24.4495, 1.78223, -25.3418 )
 mesh = SubResource( 19 )
 material/0 = SubResource( 23 )
@@ -1070,7 +995,6 @@ script = ExtResource( 13 )
 gui_viewport_path = NodePath("GUI")
 
 [node name="GUI" type="Viewport" parent="GUI_Bombs"]
-editor/display_folded = true
 size = Vector2( 480, 240 )
 hdr = false
 usage = 1
@@ -1078,7 +1002,6 @@ render_target_v_flip = true
 render_target_clear_mode = 2
 
 [node name="Control" type="Control" parent="GUI_Bombs/GUI"]
-editor/display_folded = true
 margin_right = 480.0
 margin_bottom = 240.0
 
